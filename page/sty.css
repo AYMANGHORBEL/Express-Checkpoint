@@ -1,0 +1,41 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(42, 65, 193);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.titre {
+  background-color: #0c6b91;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.homeIM {
+  width: 50%;
+  height: 420px;
+  padding-left: 250px;
+}
+
+h1 {
+  color: #d345b4;
+  font-weight: bold;
+  font-style: italic;
+  align-items: center;
+}
